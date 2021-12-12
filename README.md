@@ -1,5 +1,4 @@
 # Prototipo de Cardapio Online - Em Desenvolvimento
-https://github.com/gbyteinfo/Burgues-Cardapio-Online/raw/Burgues-Client/Burgues-Cardapio-Online.png
 ![Screenshot](Burgues-Cardapio-Online.png)
 
 
