@@ -58,4 +58,4 @@ Minha escolha por essa profissão se da pela minha paixão pelo desenvolvimento;
 
 Espero que esse projeto consiga ajudar de alguma maneira a comunidade;
 
-Fique a vontade para sujerir melhorias ou Merge Request;
+Fique a vontade para sugerir melhorias ou Merge Request;
