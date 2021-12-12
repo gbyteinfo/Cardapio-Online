@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
+header.masthead{
+
+    margin:0px !important;
+
+    background: no-repeat 50%;
+
+    background-color:#000;
+
+    background-attachment: scroll;
+
+    background-position: center center;
+
+    position: relative;
+
+    background-size: cover;
+
+    background-image: url('https://kannibalburgues.com.br/wp-content/uploads/2021/02/home-background-hero-scaled-1-1.jpg');
+
+}
+
+
+
+
+
+/*INICIO RESPONSIVO ATÃ‰ 1px*/
+
+@media (min-width: 1px) {
+
+    nav.responsivo-dados {
+
+        font-family: 'Roboto Condensed' !important;
+
+    }
+
+    nav.responsivo-dados a.active2{
+
+        transition: color 0.3s ease-in-out;
+
+        color:#fff;
+
+        font-size:15px ;
+
+        
+
+    }
+
+    nav.responsivo-dados a.active2:hover{
+
+        transition: color 0.3s ease-in-out;
+
+        color: #fcdc31 !important;
+
+        font-size:15px ;
+
+    }
+
+    nav.responsivo-dados .icon-menu-mobile{
+
+        margin-right:0px;
+
+        font-size: 25px; 
+
+        color: #fcdc31;
+
+    }
+
+    /*IMG LOGO*/
+
+    nav.responsivo-dados .logo-nav-bar{
+
+        width: 40px;
+
+        margin-left: 0px
+        
+
+    }
+
+    #mainNav .logo-nav-bar-shrink{
+
+        width: 40px;
+
+    }
+
+    /*MENU NAV BAR*/
+
+    #mainNav{
+
+        background-color: rgba(33, 36, 39, 0.8);
+
+        padding-top:.1rem;
+
+        padding-bottom:.1rem;
+    }
+
+    #mainNav.navbar-shrink{
+
+        padding-top:.1rem;
+
+        padding-bottom:.1rem;
+
+        background-color: rgba(33, 36, 39, 0.8);
+
+        box-shadow: 10px 10px 50px 10px rgba(31, 37, 43, 0.9) !important;
+
+        font-size: 15px;
+
+    }
+
+    #mainNav.navbar-shrink a:hover{
+
+        color: aqua;
+
+    }
+
+    /*BANNER 1 DELIVERY DE LANCHES*/
+    header.masthead .container{
+
+        padding: 0px 0 0 5px;
+
+        text-align: center;
+
+        /*background-color: #fcdc31;*/
+
+    }
+
+    header.masthead .container h2{
+
+        line-height: 1.2em;
+
+        font-family: "Roboto Condensed";
+
+        font-size: 20px;
+
+    }
+
+    header.masthead .container h1{
+
+        margin: 30px 0 0 0;
+
+        font-family: "Bebas Neue";
+
+    }
+
+    header.masthead .container h1 b.bn-span-1 {
+
+        color:#fcdc31 !important;
+
+        font-weight: bold;
+
+        font-size: 90px;
+
+        
+
+    }
+
+    header.masthead .container h1 b.bn-span-2 {
+
+        color:#fff !important;
+
+        font-weight: bold;
+
+        font-size: 73px;
+
+        line-height: 0.8em;
+
+    }
+
+    header.masthead .container .banner-a-btn{
+
+        /*background-color: #fcdc31;*/    
+
+        margin: 15px 0 0 0;
+        text-align: center !important;
+
+    }
+    header.masthead .container .cor-btn-lottie-google{
+        background-color:#FAD503;
+        color:#ffffff
+    }
+    header.masthead .container .cor-btn-lottie-google:hover{
+        background-color: #EDCA03;
+    }
+    header.masthead .container .cor-btn-lottie-whatsapp{
+        background-color:#211F20;
+        color:#ffffff;
+        border:none
+    }
+    header.masthead .container .cor-btn-lottie-whatsapp:hover{
+        background-color: #161415;
+        border:none
+    }
+    header.masthead .container .span-lottie-btn{
+        margin-left: 0px;
+        margin-right: 40px;
+        padding: 0px;
+    
+    }
+    header.masthead .container .banner-lottie-player{
+        width: 90px; 
+        height: 90px; 
+        margin:-60px -35px -25px 120px !important;
+        float: right;
+        
+    }
+    header.masthead .container .banner-lottie-player-google{
+        width: 72px; 
+        height: 72px; 
+        margin:-50px -25px -25px 120px !important;
+        float: right;
+        
+    }
+
+}
+
+/*FIM RESPONSIVO ATÃ‰ 1px*/
+
+/*INICIO RESPONSIVO ATÃ‰ 768px*/
+
+@media (min-width: 768px) {
+
+    nav.responsivo-dados {
+
+        font-family: 'Roboto Condensed' !important;
+
+    }
+
+    nav.responsivo-dados a.active2{
+
+        transition: color 0.3s ease-in-out;
+
+        color:#fff;
+
+        font-size:15px ;
+
+    }
+
+    nav.responsivo-dados a.active2:hover{
+
+        transition: color 0.3s ease-in-out;
+
+        color: #fcdc31 !important;
+
+        font-size:15px ;
+
+    }
+
+    nav.responsivo-dados .icon-menu-mobile{
+
+        margin-right:50px ;
+
+        font-size: 25px; 
+
+        color: #fcdc31;
+
+    }
+
+    /*IMG LOGO*/
+
+    nav.responsivo-dados .logo-nav-bar{
+
+        width: 40px;
+
+        margin-left: 50px;
+
+    }
+
+    #mainNav .logo-nav-bar-shrink{
+
+        width: 40px;
+
+    }
+
+    /*MENU NAV BAR*/
+
+    #mainNav{
+
+        background-color: rgba(33, 36, 39, 0.8);
+
+        padding-top:.1rem;
+
+        padding-bottom:.1rem;
+
+    }
+
+    #mainNav.navbar-shrink{
+
+        padding-top:.1rem;
+
+        padding-bottom:.1rem;
+
+        background-color: rgba(33, 36, 39, 0.8);
+
+        box-shadow: 10px 10px 50px 10px rgba(31, 37, 43, 0.9) !important;
+
+        font-size: 15px;
+
+    }
+
+    #mainNav.navbar-shrink a:hover{
+
+        color: aqua;  
+
+    }
+
+    /*BANNER 1 DELIVERY DE LANCHES*/
+
+    header.masthead .container{
+
+        padding: 0px 0 0 50px;
+
+        text-align: center;
+
+        /*background-color: #fcdc31;*/
+
+    }
+
+    header.masthead .container h2{
+
+        line-height: 1.2em;
+
+        font-family: "Roboto Condensed";
+
+        font-size: 40px;
+
+    }
+
+    header.masthead .container h1{
+
+        margin: 30px 0 0 0;
+
+        font-family: "Bebas Neue";
+
+    }
+
+    header.masthead .container h1 b.bn-span-1 {
+
+        color:#fcdc31 !important;
+
+        font-weight: bold;
+
+        font-size: 120px;
+
+    }
+
+    header.masthead .container h1 b.bn-span-2 {
+
+        color:#fff !important;
+
+        font-weight: bold;
+
+        font-size: 93px;
+
+        line-height: 0.8em;
+
+    }
+
+    header.masthead .container .banner-a-btn{
+
+        /*background-color: #fcdc31;*/    
+
+        margin: 15px 0 0 0;
+        text-align: center !important;
+
+    }
+    header.masthead .container .span-lottie-btn{
+        margin-left: 0px;
+        margin-right: 40px;
+        padding: 0px;
+    
+    }
+    header.masthead .container .banner-lottie-player{
+        width: 90px; 
+        height: 90px; 
+        margin:-60px -35px -25px 120px !important;
+        float: right;
+        
+    }
+    header.masthead .container .banner-lottie-player-google{
+        width: 72px; 
+        height: 72px; 
+        margin:-50px -25px -25px 120px !important;
+        float: right;
+        
+    }
+
+}
+
+/*FIM RESPONSIVO ATÃ‰ 768px*/
+
+/*INICIO RESPONSIVO ATÃ‰ 992px*/
+
+@media (min-width: 992px) {
+
+    nav.responsivo-dados {
+
+        font-family: 'Roboto Condensed' !important;
+
+    }
+
+    nav.responsivo-dados a.active2{
+
+        transition: color 0.3s ease-in-out;
+
+        color:#fff;
+
+        font-size:15px ;
+
+    }
+
+    nav.responsivo-dados a.active2:hover{
+
+        transition: color 0.3s ease-in-out;
+
+        color: #fcdc31 !important;
+
+        font-size:15px ;
+
+    }
+
+    /*IMG LOGO*/
+
+    nav.responsivo-dados .logo-nav-bar{
+
+        transition: color 0.9s ease-in-out;
+
+        margin: -150px 0 -187px 25px;
+
+        width: 184px;
+
+    }
+
+    #mainNav .logo-nav-bar-shrink{
+
+        margin: 0 0 -74px 50px;
+
+        padding: 0 0 0 0;
+
+        width: 50px;
+
+        width: 120px;
+
+    }
+
+    /*MENU NAV BAR*/
+
+    #mainNav{
+
+        background-color: rgba(33, 36, 39, 0.0);
+
+        padding-top: 70px;
+
+    }
+
+    #mainNav.navbar-shrink{
+
+        padding-top:.5rem;
+
+        padding-bottom:.5rem;
+
+        background-color: rgba(33, 36, 39, 0.8);
+
+        box-shadow: 10px 10px 50px 10px rgba(33, 36, 39, 0.8);
+
+        font-size: 15px;
+
+    }
+
+    /*BANNER 1 DELIVERY DE LANCHES*/
+
+    header.masthead .container{
+
+        padding: 50px 0 0 50px;
+
+        text-align: left;
+
+        /*background-color: #fcdc31;*/
+
+    }
+
+    header.masthead .container h2{
+
+        margin: 0 0 0 2.5px;
+
+        font-family: "Roboto Condensed";
+
+        font-size: 40px;
+
+    }
+
+    header.masthead .container h1{
+
+        margin: 25px 0 0 0;
+
+        font-family: "Bebas Neue";
+
+    }
+
+    header.masthead .container h1 b.bn-span-1 {
+
+        color:#fcdc31 !important;
+
+        font-weight: bold;
+
+        font-size: 120px;
+
+    }
+
+    header.masthead .container h1 b.bn-span-2 {
+
+        color:#fff !important;
+
+        font-weight: bold;
+
+        font-size: 93px;
+
+    }
+
+    header.masthead .container .banner-a-btn{
+
+        /*background-color: #fcdc31;*/    
+
+        margin: 15px 0 0 0;
+        text-align: left !important;
+
+    }
+    header.masthead .container .span-lottie-btn{
+        margin-left: 0px;
+        margin-right: 40px;
+        padding: 0px;
+    
+    }
+    header.masthead .container .banner-lottie-player{
+        width: 90px; 
+        height: 90px; 
+        margin:-60px -35px -25px 120px !important;
+        float: right;
+        
+    }
+    header.masthead .container .banner-lottie-player-google{
+        width: 72px; 
+        height: 72px; 
+        margin:-50px -25px -25px 120px !important;
+        float: right;
+        
+    }
+
+}
+
+/*FIM RESPONSIVO ATÃ‰ 992px*/
+
+/*INICIO RESPONSIVO ATÃ‰ 1200px*/
+
+@media (min-width: 1200px) {
+
+    nav.responsivo-dados {
+
+        font-family: 'Roboto Condensed' !important;
+
+    }
+
+    nav.responsivo-dados a.active2{
+
+        transition: color 0.3s ease-in-out;
+
+        color:#fff;
+
+        font-size:16px ;
+
+    }
+
+    nav.responsivo-dados a.active2:hover{
+
+        transition: color 0.3s ease-in-out;
+
+        color: #fcdc31 !important;
+
+        font-size:16px ;
+
+    }
+
+    /*IMG LOGO*/
+
+    nav.responsivo-dados .logo-nav-bar{
+
+        transition: color 0.9s ease-in-out;
+
+        margin: -150px 0 -187px 100px;
+
+    }
+
+    #mainNav .logo-nav-bar-shrink{
+
+        margin: 0 0 -74px 50px;
+
+        padding: 0 0 0 0;
+
+        width: 120px;
+
+    }
+
+    /*MENU NAV BAR*/
+
+    #mainNav{
+
+        /*background-color: rgba(52, 58, 64, 0.8);*/
+
+        padding-top: 70px;
+
+    }
+
+    #mainNav.navbar-shrink{
+
+        padding-top:.5rem;
+
+        padding-bottom:.5rem;
+
+        background-color: rgba(33, 36, 39, 0.8);
+
+        box-shadow: 10px 10px 50px 10px rgba(31, 37, 43, 0.8);
+
+        font-size: 16px;
+
+    }
+
+    /*BANNER 1 DELIVERY DE LANCHES*/
+
+    header.masthead .container{
+
+        padding: 50px 0 0 50px;
+
+        text-align: left;
+
+        /*background-color: #fcdc31;*/
+
+    }
+
+    header.masthead .container h2{
+
+        margin: 0 0 0 2.5px;
+
+        font-family: "Roboto Condensed";
+
+        font-size: 40px;
+
+    }
+
+    header.masthead .container h1{
+
+        margin: 25px 0 0 0;
+
+        font-family: "Bebas Neue";
+
+    }
+
+    header.masthead .container h1 b.bn-span-1 {
+
+        color:#fcdc31 !important;
+
+        font-weight: bold;
+
+        font-size: 120px;
+
+    }
+
+    header.masthead .container h1 b.bn-span-2 {
+
+        color:#fff !important;
+
+        font-weight: bold;
+
+        font-size: 93px;
+
+    }
+
+    header.masthead .container .banner-a-btn{
+
+        /*background-color: #fcdc31;*/    
+
+        margin: 15px 0 0 0;
+        text-align: left !important;
+
+    }
+    header.masthead .container .span-lottie-btn{
+        margin-left: 0px;
+        margin-right: 40px;
+        padding: 0px;
+    
+    }
+    header.masthead .container .banner-lottie-player{
+        width: 90px; 
+        height: 90px; 
+        margin:-60px -35px -25px 120px !important;
+        float: right;
+        
+    }
+    header.masthead .container .banner-lottie-player-google{
+        width: 72px; 
+        height: 72px; 
+        margin:-50px -25px -25px 120px !important;
+        float: right;
+        
+    }
+
+}
+
+/*FIM RESPONSIVO ATÃ‰ 1200px*/

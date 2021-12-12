@@ -1,0 +1,69 @@
+.portfolio .item-padding{
+  padding: 0px !important;
+  background-color:rgba(33, 36, 39, 1); 
+}
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 765px;
+  margin-bottom: 0px;
+  background-color: #fcdc31; 
+  padding: 5px !important;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  transition: all 0.s ease;
+  opacity: 1;
+  background-color: rgba(33, 36, 39, 0.5);
+  margin: -5px !important;
+  padding: 5px;
+}
+/*
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+*/
+.portfolio
+  .portfolio-item
+  .portfolio-item-caption
+  .portfolio-item-caption-content {
+    font-size: 1.0rem;
+  
+}
+@media (min-width: 1px) {
+  .portfolio {
+    background-color: rgba(33, 36, 39, 1);
+    padding: 0px !important;
+  }
+  .portfolio .portfolio-item h3 {
+    font-size: 20px;
+    color:#f9f9f9;
+    margin:0 0 10px 0 ;
+  }
+  .portfolio .portfolio-item h4 {
+    font-size: 13px;
+    color:#ffffff;
+    font-weight:normal;
+  }
+  .portfolio .portfolio-item .precoWhatsapp{
+    font-size: 15px;
+    color:#24C15F;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+  }
+  .portfolio .portfolio-item .precoIfood{
+    font-size: 15px;
+    color:#DC3545;
+    font-weight: 600;
+    text-decoration:line-through;
+    margin: 10px 0 0 0;
+  }
+  
+  .portfolio .portfolio-item .banner-lottie-player2{
+      width:150px; 
+      height: 150px; 
+      margin: 0px !important;   
+  }
+
+  
+  
+}

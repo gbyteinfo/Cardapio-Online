@@ -1,0 +1,30 @@
+{
+  "short_name": "Burgues",
+  "name": "Burgues v.1 - Gbyteinfo",
+  "icons": [
+      {
+          "src": "",
+          "type": "image/png",
+          "sizes": "250x250"
+      },
+      {
+          "src": "",
+          "type": "image/png",
+          "sizes": "900x650"
+      }
+  ],
+  "start_url": "https://app-burgues.gbyteinfo.com.br/",
+  "background_color": "rgba(33, 36, 39, 0.8)",
+  "theme_color": "rgba(33, 36, 39, 0.8)",
+  "display": "fullscreen",
+  "prefer_related_applications": true,
+  "related_applications": [
+      {
+        "platform": "play",
+        "url": "",
+        "id": "com.example.app1"
+      }, {
+        "platform": "itunes",
+        "url": ""
+      }]
+}
