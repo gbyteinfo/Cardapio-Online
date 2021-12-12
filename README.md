@@ -5,6 +5,7 @@
 ### Versão Funcional
 
 Pode ser acessado no link [Projeto Build](https://app-burgues.gbyteinfo.com.br).
+ATENÇÃO - "Alguns segundos para ligar e carregar os Lanches"
 
 
 ## Tecnologias Utilizadas
